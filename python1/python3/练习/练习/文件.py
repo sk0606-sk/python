@@ -1,0 +1,8 @@
+print('输入文件名')
+shuru=input()
+a=open(f'{shuru}.txt','w+')
+a.write('skdadkajdjadjajd')
+print('输入要备份的文件名')
+b=open(f'{shuru}备份.txt','w+')
+r=a.read()
+b.write(r)
